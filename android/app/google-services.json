@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "390140952053",
+    "project_id": "smart-app-597a5",
+    "storage_bucket": "smart-app-597a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390140952053:android:594aaafaddd3460f9974bc",
+        "android_client_info": {
+          "package_name": "com.example.smart_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390140952053-e2ahilvq0drg8h3og07g9att8l5vf6c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR3BTDLXApMtuh9xA3mqOTQNRR05qPn0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390140952053-e2ahilvq0drg8h3og07g9att8l5vf6c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
