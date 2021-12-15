@@ -88,7 +88,7 @@ class _RiskCalculatorState extends State<RiskCalculator> {
         context: context,
         builder: (BuildContext context) => AlertDialog(
               backgroundColor: Colors.redAccent,
-              content: Flexible(
+              content: const Flexible(
                 child: Text(
                     'This tool cannot accurately calculate breast cancer risk for women with a medical history of any breast cancer or DCIS or LCIS.'),
               ),
@@ -111,7 +111,6 @@ class _RiskCalculatorState extends State<RiskCalculator> {
 
   @override
   Widget build(BuildContext context) {
-    double h = MediaQuery.of(context).size.height * 0.65;
     double w = MediaQuery.of(context).size.height * 0.03;
     double capitalText = MediaQuery.of(context).size.height * 0.05;
     double smallText = MediaQuery.of(context).size.height * 0.025;
@@ -507,9 +506,9 @@ class _RiskCalculatorState extends State<RiskCalculator> {
                     ),
                     Container(
                         height: dropdownheight,
-                        margin: EdgeInsets.all(10),
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                        margin: const EdgeInsets.all(10),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
                             border: Border.all(color: Colors.blue, width: 2)),
@@ -517,7 +516,7 @@ class _RiskCalculatorState extends State<RiskCalculator> {
                           child: DropdownButton(
                             hint: Text(
                               dropDownValue_ethnicity,
-                              style: TextStyle(color: Colors.blue),
+                              style: const TextStyle(color: Colors.blue),
                             ),
                             dropdownColor: Colors.grey,
                             isExpanded: true,
@@ -1129,9 +1128,9 @@ class _RiskCalculatorState extends State<RiskCalculator> {
                     ),
                     Container(
                         height: dropdownheight,
-                        margin: EdgeInsets.all(10),
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                        margin: const EdgeInsets.all(10),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 12, vertical: 4),
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(15),
                             border: Border.all(color: Colors.blue, width: 2)),
@@ -1139,7 +1138,7 @@ class _RiskCalculatorState extends State<RiskCalculator> {
                           child: DropdownButton(
                             hint: Text(
                               dropDownValue_gavebirth,
-                              style: TextStyle(color: Colors.blue),
+                              style: const TextStyle(color: Colors.blue),
                             ),
                             dropdownColor: Colors.grey,
                             isExpanded: true,
